@@ -1,0 +1,460 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #2e2929, black);
+}
+#container
+{
+    position:relative;
+    width: 100%;
+    background :linear-gradient(to right, #2e2929, black);
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    margin-left: 40px;
+    color: rgb(253, 252, 252);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#heading
+{
+   
+    width: 650px;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+#head
+{
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 20px;
+    color: rgb(255, 253, 253);
+    font-weight: bold;
+}
+#head:hover
+{
+    color:white;
+}
+#Button
+{
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 30px;
+    border-radius: 5%;
+    text-align: center;
+    color:  rgb(253, 250, 249);
+    padding: 10px;
+    font-weight: bold;
+
+}
+#Button:hover
+{
+    color: white;
+    overflow: hidden;
+}
+#home
+{
+    color: black;
+    padding-top: 100px;
+    padding-left: 10%;
+    padding-right: 18%;
+    padding-bottom: 100px;   
+}
+#bio h1{
+    color: white;
+    margin-bottom: 10%;
+    padding-left: 150px;
+}
+#bio p{
+    color: whitesmoke;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    width: 500px;
+    
+}
+#bio
+{
+
+    padding-top: 100px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 150px;
+    border-radius: 30px;
+    display: flex;
+
+}
+.bounce {
+    animation-name: bounce1;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+@keyframes bounce1 {
+        0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+  
+#content
+{
+    padding-left: 200px;
+}
+
+#download
+{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 30px;
+    cursor: pointer;
+    background-color:rgb(241, 234, 234); 
+    color: rgb(12, 12, 12);
+    border: 2px solid whitesmoke;
+    box-shadow: 3px 3px  rgb(12, 12, 12);
+}
+#photo
+{
+    width:1500px;
+    height:550px;
+    border-radius: 10%;
+
+}
+#portofolio h2
+{
+    width: 300px;
+    height: 20px;
+    margin-left: 650px;
+    margin-top:100px;
+    color: white;
+}
+#portofolio p{
+    width: 300px;
+    height: 20px;
+    margin-left: 600px;
+    color: white;
+    font-weight: normal;
+}
+#port-container
+{
+    
+    display: flex;
+    margin-top: 50px;
+}
+#container1
+{
+    background: linear-gradient(to right, #2e2929, black);
+    border-radius: 20px;
+    margin-left: 5px;
+    width: 1800px;
+}
+#container1 h1{
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+#container1 p{
+    color:white;
+    font-weight:lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 40px;
+    font-size: 30px;
+    margin-top:30px;
+}
+#container2 h1{
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+#container2 {
+    background: linear-gradient(to right, #2e2929, black);
+    border-radius: 20px;
+    margin-left: 5px;
+    width: 2000px;
+}
+#container2 p{
+    color:white;
+    font-weight:lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 40px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+hr{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#container3
+{
+    background:linear-gradient(to right, #2e2929, black);
+    border-radius: 20px;
+    margin-left: 5px;
+    width: 2000px;
+}
+#container3 h1{
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+#container3 p{
+    color:white;
+    font-weight:lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 40px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.icon1
+{
+    height:150px;
+    width: 250px;
+    margin-top: 50px;
+    padding-bottom: 12%;
+    margin-left: 75px;
+}
+.icon2
+{
+    height:150px;
+    width: 250px;
+    margin-top: 50px;
+    padding-bottom: 12%;
+    margin-left: 90px;
+}
+.icon3
+{
+    height:150px;
+    width: 250px;
+    margin-top: 50px;
+    padding-bottom: 12%;
+    margin-left: 100px;
+}
+#skills
+{
+    height: 700px;
+    width: 99%;
+    background-color: black;
+    margin-top: 200px;
+    margin-left: 6px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#skills h2{
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+#topics
+{
+ display: flex;
+ justify-content: space-evenly;
+ margin-top: 60px;
+}
+#topics h3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#tech
+{
+    margin-right: 500px;
+}
+#techskills h4{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+progress[value]
+{
+    background: red;
+}
+#languageskills
+{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#contact
+{
+    color:rgb(243, 242, 242);
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+#contact p{
+    color: rgb(243, 238, 238);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#contact h1{
+    margin-left: 50px;
+}
+#contact a{
+    color:rgb(252, 245, 245);
+    font-size: x-large;
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bolder;
+}
+.socialicons
+{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+.slidein {
+    animation-name: slidein1;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes slidein1 {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.bounce2 {
+    animation: bounce2 linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+
+}
+@keyframes bounce2 {
+        0% {
+        opacity: 0;
+        scale: 0.5;
+    }
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+.bounce4 {
+    animation: bounce4 linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+
+}
+@keyframes bounce4 {
+        from {
+        opacity: 0;
+        clip-path: inset(100% 100% 0 0);
+    }
+        to {
+        opacity: 1;
+        clip-path: inset(0 0 0 0);  
+    }
+}
+.bounce5 {
+    animation: bounce5 linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+
+}
+@keyframes bounce5 {
+        from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+        to {
+        opacity: 1;
+        transform: translateX(0);  
+    }
+}
+.slidein11 {
+    animation-name: slidein11;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes slidein11 {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.project-button {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px auto;
+    display: block; /* Center horizontally */
+    text-align: center;
+    width: fit-content;
+    cursor: pointer;
+    background: linear-gradient(to right, #2e2929, black); 
+    color: white;
+    border: 2px solid whitesmoke;
+    box-shadow: 3px 3px rgb(12, 12, 12);
+}
+
+.project-button:hover {
+    background: white;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+.card{
+  margin: 0 auto;
+  padding: 2em;
+  width: 300px;
+  background: #1c1f2b;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+@property --angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.card::after, .card::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 3px;
+  border-radius: 10px;
+  animation: 3s spin linear infinite;
+}
+.card::before{
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
+@keyframes spin{
+  from{
+    --angle: 0deg;
+  }
+  to{
+    --angle: 360deg;
+  }
+}
